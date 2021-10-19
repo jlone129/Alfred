@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hero.name %>
+</p>
+
+<p>
+  <strong>Health:</strong>
+  <%= @hero.health %>
+</p>
+
+<p>
+  <strong>Attack:</strong>
+  <%= @hero.attack %>
+</p>
+
+<p>
+  <strong>Special:</strong>
+  <%= @hero.special %>
+</p>
+
+<p>
+  <strong>Spc atk:</strong>
+  <%= @hero.spc_atk %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @hero.status %>
+</p>
+
+<%= link_to 'Edit', edit_hero_path(@hero) %> |
+<%= link_to 'Back', heros_path %>
