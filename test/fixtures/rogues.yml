@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  health: 1
+  attack: 1
+  special: MyString
+  spc_atk: 1
+  location: MyString
+
+two:
+  name: MyString
+  health: 1
+  attack: 1
+  special: MyString
+  spc_atk: 1
+  location: MyString
